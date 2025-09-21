@@ -1,0 +1,5 @@
+ul { list-style: none; padding-left: 20px; }
+li { cursor: pointer; margin: 2px 0; }
+li.collapsed > ul { display: none; }
+li:hover { background-color: #f0f0f0; }
+#message { transition: all 0.3s ease; }
